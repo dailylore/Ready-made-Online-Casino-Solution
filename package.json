@@ -1,0 +1,20 @@
+{
+  "name": "ready-made-casino",
+  "version": "1.0.0",
+  "description": "Crypto casino solution",
+  "main": "server.js",
+  "scripts": {
+    "start": "pm2 start server.js --no-daemon"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "mysql2": "^3.6.0",
+    "pm2": "^5.3.0",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  }
+}
